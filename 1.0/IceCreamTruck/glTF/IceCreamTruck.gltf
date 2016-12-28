@@ -1,0 +1,301 @@
+{
+    "accessors": {
+        "accessor_26": {
+            "bufferView": "bufferView_34",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 29826,
+            "max": [
+                4091
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_28": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 8363,
+            "max": [
+                6.66733,
+                16.0914,
+                7.67897
+            ],
+            "min": [
+                -5.13731,
+                0.0256284,
+                -7.97878
+            ],
+            "type": "VEC3"
+        },
+        "accessor_30": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 100356,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 8363,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_32": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 200712,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 8363,
+            "max": [
+                0.991502,
+                0.991636
+            ],
+            "min": [
+                0.00790811,
+                0.00794101
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_34": {
+            "buffer": "IceCreamTruck",
+            "byteLength": 59652,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_35": {
+            "buffer": "IceCreamTruck",
+            "byteLength": 267616,
+            "byteOffset": 59652,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "IceCreamTruck": {
+            "byteLength": 327268,
+            "type": "arraybuffer",
+            "uri": "IceCreamTruck.bin"
+        }
+    },
+    "images": {
+        "m0mtl_dilapidated_ice_cream_truck-ambient-image": {
+            "name": "m0mtl_dilapidated_ice_cream_truck-ambient-image",
+            "uri": "IceCreamTruck_texture_0002.jpg"
+        },
+        "m0mtl_dilapidated_ice_cream_truck-diffuse-image": {
+            "name": "m0mtl_dilapidated_ice_cream_truck-diffuse-image",
+            "uri": "IceCreamTruck_texture_0001.jpg"
+        },
+        "m0mtl_dilapidated_ice_cream_truck-emission-image": {
+            "name": "m0mtl_dilapidated_ice_cream_truck-emission-image",
+            "uri": "IceCreamTruck_texture_0003.jpg"
+        },
+        "m0mtl_dilapidated_ice_cream_truck-normal-image": {
+            "name": "m0mtl_dilapidated_ice_cream_truck-normal-image",
+            "uri": "IceCreamTruck_texture_0005.jpg"
+        },
+        "m0mtl_dilapidated_ice_cream_truck-specular-image": {
+            "name": "m0mtl_dilapidated_ice_cream_truck-specular-image",
+            "uri": "IceCreamTruck_texture_0004.jpg"
+        }
+    },
+    "materials": {
+        "m0mtl_dilapidated_ice_cream_truck-fx": {
+            "name": "m0mtl_dilapidated_ice_cream_truck",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_m0mtl_dilapidated_ice_cream_truck-ambient-image",
+                "diffuse": "texture_m0mtl_dilapidated_ice_cream_truck-diffuse-image",
+                "emission": "texture_m0mtl_dilapidated_ice_cream_truck-emission-image",
+                "shininess": 20,
+                "specular": "texture_m0mtl_dilapidated_ice_cream_truck-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_30",
+                        "POSITION": "accessor_28",
+                        "TEXCOORD_0": "accessor_32"
+                    },
+                    "indices": "accessor_26",
+                    "material": "m0mtl_dilapidated_ice_cream_truck-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "dilapidated_ice_cream_truck": {
+            "children": [],
+            "meshes": [
+                "meshId0"
+            ],
+            "name": "dilapidated_ice_cream_truck"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "IceCreamTruck0FS",
+            "vertexShader": "IceCreamTruck0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "dilapidated_ice_cream_truck"
+            ]
+        }
+    },
+    "shaders": {
+        "IceCreamTruck0FS": {
+            "type": 35632,
+            "uri": "IceCreamTruck0FS.glsl"
+        },
+        "IceCreamTruck0VS": {
+            "type": 35633,
+            "uri": "IceCreamTruck0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35678
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0mtl_dilapidated_ice_cream_truck-ambient-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_dilapidated_ice_cream_truck-ambient-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_dilapidated_ice_cream_truck-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_dilapidated_ice_cream_truck-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_dilapidated_ice_cream_truck-emission-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_dilapidated_ice_cream_truck-emission-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_dilapidated_ice_cream_truck-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_dilapidated_ice_cream_truck-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

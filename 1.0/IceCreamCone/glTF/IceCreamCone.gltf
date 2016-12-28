@@ -1,0 +1,287 @@
+{
+    "accessors": {
+        "accessor_26": {
+            "bufferView": "bufferView_34",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 11460,
+            "max": [
+                1131
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_28": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2153,
+            "max": [
+                1.31839,
+                7.01124,
+                1.20584
+            ],
+            "min": [
+                -1.08482,
+                0.00963944,
+                -1.09102
+            ],
+            "type": "VEC3"
+        },
+        "accessor_30": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 25836,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2153,
+            "max": [
+                0.999784,
+                1,
+                0.999784
+            ],
+            "min": [
+                -0.999784,
+                -1,
+                -0.999784
+            ],
+            "type": "VEC3"
+        },
+        "accessor_32": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 51672,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 2153,
+            "max": [
+                0.986047,
+                0.99478
+            ],
+            "min": [
+                0.0128777,
+                0.0108132
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_34": {
+            "buffer": "IceCreamCone",
+            "byteLength": 22920,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_35": {
+            "buffer": "IceCreamCone",
+            "byteLength": 68896,
+            "byteOffset": 22920,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "IceCreamCone": {
+            "byteLength": 91816,
+            "type": "arraybuffer",
+            "uri": "IceCreamCone.bin"
+        }
+    },
+    "images": {
+        "m0IceCreamOnCone_Math-diffuse-image": {
+            "name": "m0IceCreamOnCone_Math-diffuse-image",
+            "uri": "IceCreamCone_texture_0001.jpg"
+        },
+        "m0IceCreamOnCone_Math-normal-image": {
+            "name": "m0IceCreamOnCone_Math-normal-image",
+            "uri": "IceCreamCone_texture_0003.jpg"
+        },
+        "m0IceCreamOnCone_Math-specular-image": {
+            "name": "m0IceCreamOnCone_Math-specular-image",
+            "uri": "IceCreamCone_texture_0002.jpg"
+        }
+    },
+    "materials": {
+        "m0IceCreamOnCone_Math-fx": {
+            "name": "m0IceCreamOnCone_Math",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": "texture_m0IceCreamOnCone_Math-diffuse-image",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 20,
+                "specular": "texture_m0IceCreamOnCone_Math-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_30",
+                        "POSITION": "accessor_28",
+                        "TEXCOORD_0": "accessor_32"
+                    },
+                    "indices": "accessor_26",
+                    "material": "m0IceCreamOnCone_Math-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "IceCreamOnCone": {
+            "children": [],
+            "meshes": [
+                "meshId0"
+            ],
+            "name": "IceCreamOnCone"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "IceCreamCone0FS",
+            "vertexShader": "IceCreamCone0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "IceCreamOnCone"
+            ]
+        }
+    },
+    "shaders": {
+        "IceCreamCone0FS": {
+            "type": 35632,
+            "uri": "IceCreamCone0FS.glsl"
+        },
+        "IceCreamCone0VS": {
+            "type": 35633,
+            "uri": "IceCreamCone0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0IceCreamOnCone_Math-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0IceCreamOnCone_Math-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0IceCreamOnCone_Math-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0IceCreamOnCone_Math-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

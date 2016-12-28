@@ -1,0 +1,521 @@
+{
+    "accessors": {
+        "accessor_26": {
+            "bufferView": "bufferView_66",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 17142,
+            "max": [
+                2911
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_28": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 5604,
+            "max": [
+                6.54582,
+                22.4389,
+                16.6255
+            ],
+            "min": [
+                -6.54582,
+                -1.84891,
+                -17.1545
+            ],
+            "type": "VEC3"
+        },
+        "accessor_30": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 67248,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 5604,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_32": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 134496,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 5604,
+            "max": [
+                0.990098,
+                0.99169
+            ],
+            "min": [
+                0.0090031,
+                0.0100296
+            ],
+            "type": "VEC2"
+        },
+        "accessor_58": {
+            "bufferView": "bufferView_66",
+            "byteOffset": 34284,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 12855,
+            "max": [
+                2481
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_60": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 179328,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4041,
+            "max": [
+                6.58943,
+                10.3343,
+                16.6054
+            ],
+            "min": [
+                -6.58943,
+                -1.07653,
+                -13.4491
+            ],
+            "type": "VEC3"
+        },
+        "accessor_62": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 227820,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4041,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -0.999983,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_64": {
+            "bufferView": "bufferView_67",
+            "byteOffset": 276312,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4041,
+            "max": [
+                0.991153,
+                0.991269
+            ],
+            "min": [
+                0.00898564,
+                0.00936621
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_66": {
+            "buffer": "FishingBoat",
+            "byteLength": 59996,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_67": {
+            "buffer": "FishingBoat",
+            "byteLength": 308640,
+            "byteOffset": 59996,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "FishingBoat": {
+            "byteLength": 368636,
+            "type": "arraybuffer",
+            "uri": "FishingBoat.bin"
+        }
+    },
+    "images": {
+        "m0mtl_fishing_boat_02-ambient-image": {
+            "name": "m0mtl_fishing_boat_02-ambient-image",
+            "uri": "FishingBoat_texture_0002.jpg"
+        },
+        "m0mtl_fishing_boat_02-diffuse-image": {
+            "name": "m0mtl_fishing_boat_02-diffuse-image",
+            "uri": "FishingBoat_texture_0001.jpg"
+        },
+        "m0mtl_fishing_boat_02-emission-image": {
+            "name": "m0mtl_fishing_boat_02-emission-image",
+            "uri": "FishingBoat_texture_0003.jpg"
+        },
+        "m0mtl_fishing_boat_02-normal-image": {
+            "name": "m0mtl_fishing_boat_02-normal-image",
+            "uri": "FishingBoat_texture_0005.jpg"
+        },
+        "m0mtl_fishing_boat_02-specular-image": {
+            "name": "m0mtl_fishing_boat_02-specular-image",
+            "uri": "FishingBoat_texture_0004.jpg"
+        },
+        "m1mtl_fishing_boat_01-ambient-image": {
+            "name": "m1mtl_fishing_boat_01-ambient-image",
+            "uri": "FishingBoat_texture_0007.jpg"
+        },
+        "m1mtl_fishing_boat_01-diffuse-image": {
+            "name": "m1mtl_fishing_boat_01-diffuse-image",
+            "uri": "FishingBoat_texture_0006.jpg"
+        },
+        "m1mtl_fishing_boat_01-normal-image": {
+            "name": "m1mtl_fishing_boat_01-normal-image",
+            "uri": "FishingBoat_texture_0009.jpg"
+        },
+        "m1mtl_fishing_boat_01-specular-image": {
+            "name": "m1mtl_fishing_boat_01-specular-image",
+            "uri": "FishingBoat_texture_0008.jpg"
+        }
+    },
+    "materials": {
+        "m0mtl_fishing_boat_02-fx": {
+            "name": "m0mtl_fishing_boat_02",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_m0mtl_fishing_boat_02-ambient-image",
+                "diffuse": "texture_m0mtl_fishing_boat_02-diffuse-image",
+                "emission": "texture_m0mtl_fishing_boat_02-emission-image",
+                "shininess": 20,
+                "specular": "texture_m0mtl_fishing_boat_02-specular-image"
+            }
+        },
+        "m1mtl_fishing_boat_01-fx": {
+            "name": "m1mtl_fishing_boat_01",
+            "technique": "technique1",
+            "values": {
+                "ambient": "texture_m1mtl_fishing_boat_01-ambient-image",
+                "diffuse": "texture_m1mtl_fishing_boat_01-diffuse-image",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 20,
+                "specular": "texture_m1mtl_fishing_boat_01-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_30",
+                        "POSITION": "accessor_28",
+                        "TEXCOORD_0": "accessor_32"
+                    },
+                    "indices": "accessor_26",
+                    "material": "m0mtl_fishing_boat_02-fx",
+                    "mode": 4
+                }
+            ]
+        },
+        "meshId1": {
+            "name": "meshId1_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_62",
+                        "POSITION": "accessor_60",
+                        "TEXCOORD_0": "accessor_64"
+                    },
+                    "indices": "accessor_58",
+                    "material": "m1mtl_fishing_boat_01-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "fishing_boat": {
+            "children": [],
+            "meshes": [
+                "meshId0",
+                "meshId1"
+            ],
+            "name": "fishing_boat"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "FishingBoat0FS",
+            "vertexShader": "FishingBoat0VS"
+        },
+        "program_1": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "FishingBoat1FS",
+            "vertexShader": "FishingBoat1VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "fishing_boat"
+            ]
+        }
+    },
+    "shaders": {
+        "FishingBoat0FS": {
+            "type": 35632,
+            "uri": "FishingBoat0FS.glsl"
+        },
+        "FishingBoat0VS": {
+            "type": 35633,
+            "uri": "FishingBoat0VS.glsl"
+        },
+        "FishingBoat1FS": {
+            "type": 35632,
+            "uri": "FishingBoat1FS.glsl"
+        },
+        "FishingBoat1VS": {
+            "type": 35633,
+            "uri": "FishingBoat1VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35678
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        },
+        "technique1": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_1",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0mtl_fishing_boat_02-ambient-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_fishing_boat_02-ambient-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_fishing_boat_02-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_fishing_boat_02-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_fishing_boat_02-emission-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_fishing_boat_02-emission-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_fishing_boat_02-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_fishing_boat_02-specular-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m1mtl_fishing_boat_01-ambient-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m1mtl_fishing_boat_01-ambient-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m1mtl_fishing_boat_01-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m1mtl_fishing_boat_01-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m1mtl_fishing_boat_01-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m1mtl_fishing_boat_01-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}
