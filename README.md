@@ -4,22 +4,29 @@
 
 # glTF Sample Models
 
-- [glTF 1.0](1.0)
+[![Build Status](https://travis-ci.org/KhronosGroup/glTF-Sample-Models.svg?branch=master)](https://travis-ci.org/KhronosGroup/glTF-Sample-Models)
 
-Sample models are provided in as many of the following formats as possible:
+- [glTF 1.0](1.0)
+- [glTF 2.0](2.0)
+
+Sample glTF 2.0 models are provided in as many of the following formats as possible:
 * glTF (.gltf) with separate resources: .bin (geometry, animation, skins), .glsl (shaders), and image files
 * glTF (.gltf) with embedded resources
-* Binary glTF (.glb) using the [KHR_binary_glTF](https://github.com/KhronosGroup/glTF/blob/master/extensions/Khronos/KHR_binary_glTF/README.md) extension
-* glTF (.gltf) using the [KHR_materials_common](https://github.com/KhronosGroup/glTF/blob/master/extensions/Khronos/KHR_materials_common/README.md) extension
+* Binary glTF (.glb) using the [binary container format](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification)
+* glTF (.gltf) using the [KHR_materials_pbrSpecularGlossiness](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_pbrSpecularGlossiness) extension
 * Original COLLADA (.dae) or other source format
 
 See the `README.md` in each model's directory for usage restrictions.
 
 Sample models help the glTF ecosystem, if you are able to contribute a model, see the [contributing section](#contributing-sample-models) below.
 
-## Flightradar24 Models
+## Other glTF Sample Models
 
-For addition glTF models, see Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
+For addition glTF models, see:
+
+* Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
+* Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
+* Sketchfab's [glTF samples](https://sketchfab.com/features/gltf).
 
 ## Contributing Sample Models
 
